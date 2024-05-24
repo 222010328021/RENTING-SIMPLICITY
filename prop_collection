@@ -1,0 +1,19 @@
+// properties collection
+{
+  "_id" : ObjectId("..."),
+  "name" : "Property 1",
+  "description" : "This is a beautiful property",
+  "area" : "City Center",
+  "bedrooms" : 3,
+  "bathrooms" : 2,
+  "hospitalsNearby" : true,
+  "collegesNearby" : false
+}
+
+// sellers collection
+{
+  "_id" : ObjectId("..."),
+  "email" : "seller@example.com",
+  "phoneNumber" : "1234567890",
+  "propertyId" : ObjectId("...")
+}
